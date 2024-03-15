@@ -21,12 +21,13 @@ body {
     margin-right: auto;
     height: 100%;
   }
-  button{
-    background-color: rgb(240, 240, 239);
-    color: rgb(23, 23, 23);
-    border-color: black;
-    border-radius: 1vw;
-
+button{
+  background-color: rgb(240, 240, 239);
+  color: rgb(23, 23, 23);
+  border-radius: 20%;
+  padding: 10%;
+  border-color: #ebeaea;
+  box-shadow: 1%;
 }
 button:hover{
     background-color: rgb(62, 62, 62);
@@ -79,11 +80,8 @@ button:hover{
 }
 .gallery {
   width: 15vw;
-    column-gap: 2;
+  column-gap: 2;
   }
-  .gallery:hover {
-    box-shadow: 1vw 1vw rgb(94, 92, 92);
-  }  
 .gallery img {
     width: 100%;
     height: auto;
@@ -100,7 +98,7 @@ header, footer{
 }
 .imgindx{
    height: auto;
-   width: 20vw;
+   width: 30vw;
 }
 img{
     height:auto; 
